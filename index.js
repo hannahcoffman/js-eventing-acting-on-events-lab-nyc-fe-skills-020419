@@ -15,10 +15,17 @@ function onKeyDown(event) {
 
 function moveDodgerRight(){
    const currentPosition = parseInt(dodger.style.left)
+<<<<<<< HEAD
    if (currentPosition + 5 <= 360){
    dodger.style.left = currentPosition + 5 + 'px'
    }
    
+=======
+   if (currentPosition - 5 <= 360){
+     
+   }
+    dodger.style.left = currentPosition + 5 + 'px'
+>>>>>>> bf6be719f3f478a23817ba2f3ea040566cbcae23
   }
 
 document.addEventListener('keydown',onKeyDown)
